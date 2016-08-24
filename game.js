@@ -22,7 +22,7 @@ var enemies = {
               B: 150, C: 1.2, E: 75 }
 };
 
-var OBJECT_PLAYER = 1,
+var OBJECT_PLAYER = 4,
     OBJECT_PLAYER_PROJECTILE = 8,
     OBJECT_ENEMY = 4,
     OBJECT_ENEMY_PROJECTILE = 8,
