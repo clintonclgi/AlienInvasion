@@ -1,5 +1,5 @@
 var sprites = {
- ship: { sx: 0, sy: 0, w: 200, h: 42, frames: 1 },
+ ship: { sx: 0, sy: 0, w: 2000, h: 2000, frames: 1 },
  missile: { sx: 0, sy: 30, w: 2, h: 10, frames: 1 },
  enemy_purple: { sx: 37, sy: 0, w: 42, h: 43, frames: 1 },
  enemy_bee: { sx: 79, sy: 0, w: 37, h: 43, frames: 1 },
@@ -23,7 +23,7 @@ var enemies = {
 };
 
 var OBJECT_PLAYER = 1,
-    OBJECT_PLAYER_PROJECTILE = 2,
+    OBJECT_PLAYER_PROJECTILE = 8,
     OBJECT_ENEMY = 4,
     OBJECT_ENEMY_PROJECTILE = 8,
     OBJECT_POWERUP = 16;
